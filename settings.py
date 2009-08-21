@@ -8,10 +8,10 @@ BASE_PATH = os.path.dirname(__file__)
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
-SERVER_EMAIL = 'steven.james.anderson@googlemail.com'
+SERVER_EMAIL = 'XXX'
 
 ADMINS = (
-    ('Steven Anderson', 'steven.james.anderson@googlemail.com'),
+    ('Steven Anderson', 'XXX'),
 )
 
 MANAGERS = ADMINS
@@ -55,7 +55,7 @@ MEDIA_URL = '/media/'
 ADMIN_MEDIA_PREFIX = '/media/admin/'
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = 'pox%*g8c%cknhocn8@-^&amp;9%9cenbu-r+gyt0m@s+*-ut1*047@'
+SECRET_KEY = 'XXX'
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
