@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block head_extra %}
+    <script type="text/javascript" src="{{MEDIA_URL}}js/jquery.js"></script>
+    <script type="text/javascript" src="{{MEDIA_URL}}js/js.js"></script>
+{% endblock %}
+
+{% block body %}
+
+<h1 id="main-heading">Really Massive Url</h1>
+<h2 id="strapline">Make really long urls!</h2>
+
+{% if not url %}
+    <p>Enter a Url:</p>
+	<form method="POST" action="">
+	
+	<input name="url" type="text" value="" class="text" id="url"/><br/>
+	<select name="length">
+      <option value="10" selected="selected">Select Size...</option>
+      <option value="10">Massive</option>
+      <option value="15">Really Massive</option>
+      <option value="20">Can your browser handle it?</option>
+      <option value="50">Is that even legal?</option>
+    </select><br/>
+    <input type="submit" value="Make Massive!" class="submit"/>
+	<input id="captcha" type="text" value="If you're a person then ignore this" name="captcha"/>
+	
+	</form>
+{% else %}
+
+    <p class="success">Your massive url is: </p>
+    <p>
+        <textarea id="url" class="text">{{url}}</textarea>
+    </p>
+    <p class="url-p">
+        <a href="{{url}}">{{url}}</a>
+    </p>
+
+{% endif %}
+
+{% endblock %}

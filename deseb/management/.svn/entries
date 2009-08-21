@@ -1,0 +1,56 @@
+8
+
+dir
+105
+svn+ssh://steve@s4.wservices.ch/home/steve/repo/jivepark/trunk/deseb/management
+svn+ssh://steve@s4.wservices.ch/home/steve/repo
+
+
+
+2009-04-21T08:41:50.652228Z
+105
+steve
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9502a0dd-04f8-4def-a58a-1ff24b128fdf
+
+commands
+dir
+
+__init__.py
+file
+
+
+
+
+2009-03-17T21:01:34.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2009-03-17T22:41:10.560917Z
+65
+steve
+
+__init__.pyc
+file
+
+
+
+
+2009-04-22T19:57:02.000000Z
+1caad62a9d638bdbbd99d8ad1bc7a586
+2009-04-21T08:41:50.652228Z
+105
+steve
+has-props
+

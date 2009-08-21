@@ -1,0 +1,52 @@
+8
+
+dir
+120
+svn+ssh://steve@s4.wservices.ch/home/steve/repo/reallymassiveurl/trunk/templates/wapl
+svn+ssh://steve@s4.wservices.ch/home/steve/repo
+
+
+
+2009-04-28T22:29:37.067469Z
+120
+steve
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9502a0dd-04f8-4def-a58a-1ff24b128fdf
+
+home.html
+file
+
+
+
+
+2009-04-27T23:18:14.000000Z
+df1670b7fe366434fa07b63f2fc5fd86
+2009-04-27T23:19:05.573573Z
+119
+steve
+
+base.html
+file
+
+
+
+
+2009-04-28T22:29:46.000000Z
+cb2ee0c51257a370ddf170ba67bcd893
+2009-04-28T22:29:37.067469Z
+120
+steve
+

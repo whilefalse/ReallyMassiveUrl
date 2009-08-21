@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta name="verify-v1" content="GjPXb9eMjJr0/TxpwpUqnejardhhW237pmMyp/iuzUY=" />
+    <meta http-equiv="Content-Type" content="text/html; encoding=utf-8" />
+    <meta name="description" content="{% block description %}The opposite to a url shortener. Make really long urls!{% endblock %}" />
+    <meta name="keywords" content="{% block keywords %}url, lengthener, long, url, massive{% endblock %}"/>
+    <link rel="stylesheet" type="text/css" href="{{MEDIA_URL}}css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="{{MEDIA_URL}}css/style.css" />
+    {% block head_extra %}{% endblock %}
+    <title>Really Massive Url | {% block title %}Home{% endblock %}</title>
+  </head>
+  <body>
+    <input type="hidden" id="MEDIA_URL" value="{{MEDIA_URL}}"/>
+    <div id="container">
+        {% block body %}{% endblock %}
+        <div class="footer">Created by <a href="http://whilefalse.net/">Steve Anderson</a></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<wapl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://wapl.wapple.net/wapl.xsd"> 
+<head> 
+{% block wapl_head %}{% endblock %} 
+</head> 
+<layout> 
+<row><cell><chars><value>Mobile version coming soon</value></chars></cell></row>
+{% block wapl_layout %}{% endblock %} 
+</layout> 
+</wapl>

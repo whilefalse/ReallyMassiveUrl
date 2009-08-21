@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% block wapl_head %}
+<title>Really Massive Url - Make Massive Urls</title>
+<css>
+<url>http://reallymassiveurl.com/media/css/wapl.css</url>
+</css>
+{% endblock %}
+{% block wapl_layout %}
+<wordsChunk>
+<display_as>h1</display_as>
+<quick_text>Really Massive Url</quick_text>
+</wordsChunk>
+<wordsChunk>
+<display_as>h2</display_as>
+<quick_text>Make really massive urls!</quick_text>
+</wordsChunk>
+{% if not url %}
+<form>
+<action>http://reallymassiveurl.com/?1=1</action>
+<formItem item_type="text">
+    <label>URL</label>
+    <name>url</name>
+</formItem>
+<formItem item_type="select">
+    <name>length</name>
+    <possibility>
+        <label>Select Size</label>
+        <value>10</value>
+    </possibility>
+    <possibility>
+        <label>Massive</label>
+        <value>10</value>
+    </possibility>
+    <possibility>
+        <label>Really Massive</label>
+        <value>15</value>
+    </possibility>
+    <possibility>
+        <label>Can your browser handle it?</label>
+        <value>20</value>
+    </possibility>
+    <possibility>
+        <label>Is that even legal?</label>
+        <value>50</value>
+    </possibility>
+</formItem>
+<formItem item_type="hidden">
+    <name>captcha</name>
+    <value>If you're a person then ignore this</value>
+</formItem>
+<formItem item_type="submit">
+    <name>Make Massive</name>
+    <value>Make Massive</value>
+    <label>Make Massive</label>
+</formItem>
+</form>
+{% else %}
+
+<row class="url-strap">
+<cell>
+<chars>
+<value>
+Your massive url is:
+</value>
+</chars>
+</cell>
+</row>
+<row class="url">
+<cell>
+<externalLink>
+<url>{{url}}</url>
+<label>{{url}}</label>
+</externalLink>
+</cell>
+</row>
+
+{% endif %}
+{% endblock %} 

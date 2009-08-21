@@ -1,0 +1,34 @@
+8
+
+dir
+120
+svn+ssh://steve@s4.wservices.ch/home/steve/repo/reallymassiveurl/trunk/media
+svn+ssh://steve@s4.wservices.ch/home/steve/repo
+
+
+
+2009-04-28T22:29:37.067469Z
+120
+steve
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+9502a0dd-04f8-4def-a58a-1ff24b128fdf
+
+css
+dir
+
+js
+dir
+

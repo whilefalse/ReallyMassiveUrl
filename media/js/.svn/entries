@@ -1,0 +1,40 @@
+8
+
+dir
+120
+svn+ssh://steve@s4.wservices.ch/home/steve/repo/reallymassiveurl/trunk/media/js
+svn+ssh://steve@s4.wservices.ch/home/steve/repo
+
+
+
+2009-04-18T13:05:53.763151Z
+97
+steve
+
+
+svn:special svn:externals svn:needs-lock
+
+js.js
+file
+
+
+
+
+2009-04-18T11:36:31.000000Z
+33b2cdb0e61a57135289d4473447673b
+2009-04-18T13:05:53.763151Z
+97
+steve
+
+jquery.js
+file
+
+
+
+
+2009-04-06T19:58:07.000000Z
+bb381e2d19d8eace86b34d20759491a5
+2009-04-18T13:05:53.763151Z
+97
+steve
+

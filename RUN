@@ -1,0 +1,1 @@
+PYTHONPATH=/home/steve/v/lib/python2.5/site-packages:/home/steve/django-reallymassiveurl:. /home/steve/v/bin/python manage.py runserver --settings=settings 127.0.0.1:62448 --adminmedia=/home/steve/reallymassiveurl/media/admin
