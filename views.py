@@ -12,7 +12,6 @@ def home(request):
         captcha = request.POST['captcha']
         
         if captcha != "If you're a person then ignore this":
-            return HttpResponse(captcha);
             return HttpResponseForbidden("Fuck off bot")
 
         if int(request.POST['length']) > 50:
