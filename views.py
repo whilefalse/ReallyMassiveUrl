@@ -29,7 +29,6 @@ def home(request):
             
             try:
                 url = Url.objects.get(slug__exact=slug)
-                print "Exists"
                 ok=False
             except ObjectDoesNotExist:
                 ok=True
